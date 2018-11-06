@@ -29,12 +29,12 @@ As there is no complex functions needed. I created one Calculator class as the o
 Details as below:
 
 - Calculator
-  - self.input
+  - self.input       get user input at initialization (RAII)
   - result(self)      to return calculation result
   - computing(self)     the calculation part. It would divide the whole formula into small sections, and compute them accordingly
   - calculateOne(self, s)    the helper function for calculation that does one calculation at a time, additinoal calculation can be added here
-  - add(self, nums)    handling extra space between numbers
-  - multiply(self, nums)    handling extra space between numbers
+  - add(self, nums)    calculation of addition, able to handle extra space between numbers
+  - multiply(self, nums)    calculation of multiplication, handle extra space between numbers
 
 
 
