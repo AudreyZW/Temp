@@ -40,15 +40,14 @@ Details as below:
 
 ## Extra Test Cases
 
+Note: Extra space may not show on markdown reader. Please use source code for your reference.
+
 python3 calculator.py "(add 1 (multiply (add 2 1) 6  (multiply 4 5    2)))"
-
 python3 calculator.py "(add (multiply (add 2 1) 6  (multiply 4 5    2)))"
-
 python3 calculator.py "(add  (multiply (add 2 1) 6  (multiply 4 5    2))"
-
 python3 calculator.py "add (multiply (add 2 1) 6  (multiply 4 5    2)))"
-
 python3 calculator.py "(add (multiply (add 2 1) 6  (Aultiply 4 5    2)))"
+
 
 
 
