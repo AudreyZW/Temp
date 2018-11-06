@@ -20,7 +20,7 @@
    - Left space for calculation error for future, for situations such as a number divided by 0
 
 
-## Architech
+## Architect
 
 Following the concepts of **Object-Oriented Programming** and **RAII** (Resource Acquisition Is Initialization).
 
